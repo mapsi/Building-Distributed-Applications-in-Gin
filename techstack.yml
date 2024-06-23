@@ -1,0 +1,572 @@
+repo_name: mapsi/Building-Distributed-Applications-in-Gin
+report_id: ca0942b86206341beeab6c15914b0a36
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-23T08:50:00+00:00'
+requested_by: gaurav-packt
+provider: github
+branch: main
+detected_tools_count: 43
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter05/recipes-web/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: Gin Gonic
+  description: HTTP web framework written in Go
+  website_url: https://gin-gonic.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter01/go.mod
+  detection_source: chapter01/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-01-17 14:54:38.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/web-app/Dockerfile
+  detection_source: chapter06/web-app/Dockerfile
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter05/recipes-web/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter06/web-app/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter03/go.mod
+  detection_source: chapter03/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-01-31 19:52:54.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/consumer/docker-compose.yml
+  detection_source: chapter06/consumer/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 17:10:44.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter03/go.mod
+  detection_source: chapter03/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-01-31 19:52:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/api/docker-compose.yml
+  detection_source: chapter06/api/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: Filebeat
+  description: A lightweight shipper for forwarding and centralizing log data
+  website_url: https://www.elastic.co/products/beats/filebeat
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/5308/filebeat.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter10/docker-compose.yml
+  detection_source: chapter10/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-13 20:24:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin
+  detection_source: Repo Metadata
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter10/docker-compose.yml
+  detection_source: chapter10/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-13 20:24:02.000000000 Z
+- name: Kibana
+  description: Visualize your Elasticsearch data and navigate the Elastic Stack
+  website_url: https://www.elastic.co/kibana
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/1722/Image_2019-05-20_at_4.53.31_PM.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter10/docker-compose.yml
+  detection_source: chapter10/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-13 20:24:02.000000000 Z
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter10/docker-compose.yml
+  detection_source: chapter10/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-13 20:24:02.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/api/docker-compose.yml
+  detection_source: chapter06/api/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter10/docker-compose.yml
+  detection_source: chapter10/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-13 20:24:02.000000000 Z
+- name: StatusDashboard
+  description: Securely hosted status page and incident communication platform
+  website_url: https://www.statusdashboard.com
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Status Page Hosting
+  image_url: https://img.stackshare.io/service/20978/default_5e0d0d0d49c7be12365af8948cf5e5fa1a57835c.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/api/docker-compose.yml
+  detection_source: chapter06/api/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: Telegraf
+  description: The plugin-driven server agent for collecting &amp; reporting metrics
+  website_url: https://www.influxdata.com/time-series-platform/telegraf/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/4480/YwbWN39g_400x400.jpg
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter10/docker-compose.yml
+  detection_source: chapter10/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-13 20:24:02.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter07/api-with-db/go.mod
+  detection_source: chapter07/api-with-db/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-04-04 12:27:40.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/web-app/package.json
+  detection_source: chapter06/web-app/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: IronWorker
+  description: High-Scale Async Task Processing
+  website_url: http://www.iron.io/worker
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/2221/default_ff2de42167808184b0a4ec1075adb5bcb0aa3206.jpg
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/consumer/docker-compose.yml
+  detection_source: chapter06/consumer/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 17:10:44.000000000 Z
+- name: Apiary
+  description: Integrated API documentation, prototyping and testing
+  website_url: http://apiary.io/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/272/7b176017eab2903a23d914460b6dd600.jpeg
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/api/docker-compose.yml
+  detection_source: chapter06/api/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter10/docker-compose.yml
+  detection_source: chapter10/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-13 20:24:02.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/api/docker-compose.yml
+  detection_source: chapter06/api/docker-compose.yml
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 20:21:45.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin
+  detection_source: Repo Metadata
+- name: gnuplot
+  website_url: http://www.gnuplot.info/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4138/no-img-open-source.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin
+  detection_source: Repo Metadata
+- name: gin
+  description: Gin is a HTTP web framework written in Go
+  package_url: https://pkg.go.dev/github.com/gin-gonic/gin
+  version: 1.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter01/go.sum
+  detection_source: chapter01/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-01-17 14:54:38.000000000 Z
+  vulnerabilities:
+  - name: Inconsistent Interpretation of HTTP Requests in github.com/gin-gonic/gin
+    cve_id: CVE-2020-28483
+    cve_url: https://github.com/advisories/GHSA-h395-qcrw-5vmq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.7.0
+- name: jwt-go
+  description: Golang implementation of JSON Web Tokens
+  package_url: https://pkg.go.dev/github.com/dgrijalva/jwt-go
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter04/api/go.sum
+  detection_source: chapter04/api/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+  vulnerabilities:
+  - name: Authorization bypass in github.com/dgrijalva/jwt-go
+    cve_id: CVE-2020-26160
+    cve_url: https://github.com/advisories/GHSA-w73w-5m7g-f7qc
+    detected_date: Aug 22
+    severity: high
+    first_patched:
+- name: amqp
+  description: Go client for AMQP 0.9.1
+  package_url: https://pkg.go.dev/github.com/streadway/amqp
+  version: 1.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter06/consumer/go.sum
+  detection_source: chapter06/consumer/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-21 17:10:44.000000000 Z
+- name: gin-contrib/cors
+  description: Official CORS gin's middleware
+  package_url: https://pkg.go.dev/github.com/gin-contrib/cors
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/api/go.sum
+  detection_source: chapter05/api/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: go-auth0
+  description: ":closed_lock_with_key: Go package helping to deal with Auth0"
+  package_url: https://pkg.go.dev/github.com/auth0-community/go-auth0
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter04/auth0/go.sum
+  detection_source: chapter04/auth0/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: go-jose.v2
+  description: Package jose aims to provide an implementation of the Javascript Object
+    Signing and Encryption set of standards
+  package_url: https://pkg.go.dev/gopkg.in/square/go-jose.v2
+  version: 2.1.7
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter04/auth0/go.sum
+  detection_source: chapter04/auth0/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter03/go.sum
+  detection_source: chapter03/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-01-24 19:49:15.000000000 Z
+- name: xid
+  description: Xid is a globally unique id generator thought for the web
+  package_url: https://pkg.go.dev/github.com/rs/xid
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter02/go.sum
+  detection_source: chapter02/go.mod
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-01-23 19:07:28.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.11.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter05/recipes-web/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 11.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter05/recipes-web/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter06/web-app/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-05-09 13:57:05.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter05/recipes-web/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/mapsi/Building-Distributed-Applications-in-Gin/blob/main/chapter05/recipes-web/package-lock.json
+  detection_source: chapter05/recipes-web/package.json
+  last_updated_by: mlabouardy
+  last_updated_on: 2021-03-07 19:52:00.000000000 Z
